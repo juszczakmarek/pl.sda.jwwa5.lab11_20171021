@@ -13,6 +13,81 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/Runner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/DistanceFinder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/Point.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/points/DistanceFinder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/points/Point.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/Figure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureOval.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureRectangle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureSquare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureTriangle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/service/FigureService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/recursion/Count.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/wwa5/lab11/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/wwa5/lab11/Runner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/test/pl/sda/jwwa5/lab11/points/DistanceFinderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/Count.java">
           <value>
             <set />
@@ -88,82 +163,12 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/Recursion/CountTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/points/DistanceFinderTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/Runner.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/DistanceFinder.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/Point.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/points/DistanceFinder.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/points/Point.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/Figure.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureOval.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureRectangle.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureSquare.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/figures/FigureTriangle.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/polymorphism/service/FigureService.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/jwwa5/lab11/recursion/Count.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/wwa5/lab11/Main.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/src/pl/sda/wwa5/lab11/Runner.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Repositories/pl.sda.jwwa5/LAB/pl.sda.jwwa5.lab11_20171021/test/pl/sda/jwwa5/lab11/points/DistanceFinderTest.java">
           <value>
             <set />
           </value>

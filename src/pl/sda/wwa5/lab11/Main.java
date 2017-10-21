@@ -17,7 +17,8 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-        callSurface();
+        //callSurface();
+        callRecursion();
     }
 
     public static void callSurface() {
@@ -59,9 +60,11 @@ public class Main {
         System.out.println("Suma pól " + howManyBiggestFigers + " największych figur w kolekcji = " + figureService.calculateSumOfFields(biggestFigures));
     }
 
-    public void callRecursion() {
+    public static void callRecursion() {
         Count count = new Count(10);
-        System.out.println("fib("+count.getCountUntil()+") = "+count.getFibonacci());
-        System.out.println(count.getCountUntil()+"! = "+count.getSilnia());
+        System.out.println("fib("+count.getCountUntil()+") = "+count.fib(count.getCountUntil())+" (wersja bez rekurencji)");
+        System.out.println("fib("+count.getCountUntil()+") = "+count.fibWithRecursion(count.getCountUntil())+" (wersja z rekurencją)");
+        System.out.println(count.getCountUntil()+"! = "+count.countStrong(count.getCountUntil())+" (wersja bez rekurencji)");
+        System.out.println(count.getCountUntil()+"! = "+count.countStrongWithRecursion(count.getCountUntil())+" (wersja z rekurencją)");
     }
 }
