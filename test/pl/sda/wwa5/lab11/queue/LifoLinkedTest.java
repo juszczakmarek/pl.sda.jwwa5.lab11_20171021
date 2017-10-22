@@ -7,10 +7,10 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class LifoTest {
+public class LifoLinkedTest {
     @Test
-    public void testPush() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testPushLinkedList() throws Exception {
+        Lifo lifo = new LifoLinkedList();
         Assert.assertEquals(lifo.size(),0);
         lifo.push(1);
         Assert.assertEquals(lifo.size(),1);
@@ -18,8 +18,8 @@ public class LifoTest {
     }
 
     @Test
-    public void testPop() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testPopLinkedList() throws Exception {
+        Lifo lifo = new LifoLinkedList();
         lifo.push(1);
         Object o = lifo.pop();
         Assert.assertTrue(lifo.size() == 0);
@@ -28,8 +28,8 @@ public class LifoTest {
     }
 
     @Test
-    public void testOrder() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testOrderLinkedList() throws Exception {
+        Lifo lifo = new LifoLinkedList();
         lifo.push(1);
         lifo.push(2);
         lifo.push(3);
@@ -40,8 +40,20 @@ public class LifoTest {
     }
 
     @Test
-    public void testPopEmpty() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testOrderIntegerLinkedList() throws Exception {
+        Lifo<Integer> lifo = new LifoLinkedList();
+        lifo.push(1);
+        lifo.push(2);
+        lifo.push(3);
+
+        Assert.assertEquals(3,lifo.pop().intValue());
+        Assert.assertEquals(2,lifo.pop().intValue());
+        Assert.assertEquals(1,lifo.pop().intValue());
+    }
+
+    @Test
+    public void testPopEmptyLinkedList() throws Exception {
+        Lifo lifo = new LifoLinkedList();
 
         boolean thrown=false;
         try {
