@@ -1,6 +1,6 @@
-package pl.sda.wwa5.lab11.Polymorphism.Figures;
+package pl.sda.wwa5.lab11.polymorphism.Figures;
 
-import pl.sda.wwa5.lab11.Polymorphism.Figure;
+import pl.sda.wwa5.lab11.polymorphism.Figure;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;

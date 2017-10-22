@@ -1,6 +1,6 @@
-package pl.sda.wwa5.lab11.Polymorphism.Figures;
+package pl.sda.wwa5.lab11.polymorphism.Figures;
 
-import pl.sda.wwa5.lab11.Polymorphism.Figure;
+import pl.sda.wwa5.lab11.polymorphism.Figure;
 
 public class FigureRectangle extends Figure{
 
