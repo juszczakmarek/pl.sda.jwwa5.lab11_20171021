@@ -33,6 +33,11 @@ public class CountTest {
 
     @Test
     public void fibWithRecursion() throws Exception {
+        Count count = new Count(10);
+        Assert.assertEquals(55,count.fibWithRecursion(count.getCountUntil()));
+        Assert.assertEquals(0,count.fib(0));
+        Assert.assertEquals(1,count.fib(1));
+        Assert.assertEquals(1,count.fib(2));
     }
 
 }
