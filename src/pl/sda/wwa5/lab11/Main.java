@@ -8,7 +8,9 @@ import pl.sda.wwa5.lab11.Polymorphism.Figures.FigureTriangle;
 import pl.sda.wwa5.lab11.Polymorphism.service.FigureService;
 import pl.sda.wwa5.lab11.Recursion.Count;
 import pl.sda.wwa5.lab11.points.DistanceFinder;
+import pl.sda.wwa5.lab11.points.DistanceFinderException;
 import pl.sda.wwa5.lab11.points.Point;
+import pl.sda.wwa5.lab11.points.SearchMode;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -16,12 +18,14 @@ import java.util.Set;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws DistanceFinderException {
+
+
         //callSurface();
-        callRecursion();
+        //callRecursion();
     }
 
-    public static void callSurface() {
+    public static void callSurface() throws Exception, DistanceFinderException{
         Set<Point> surface = new HashSet<>();
         surface.add(new Point(0,0));
         surface.add(new Point(0,1));
@@ -31,9 +35,14 @@ public class Main {
         DistanceFinder df = new DistanceFinder();
         Collection<Point> nearest = df.findNearest(surface);
         Collection<Point> farthest = df.findFarthest(surface);
+//        Collection<Point> foundNearestPoints = df.find(surface, SearchMode.MIN_DISTANCE);
+//        Collection<Point> foundFarthestPoints = df.find(surface, SearchMode.MAX_DISTANCE);
 
         System.out.println("Dwa najbliższe punkty na płaszczyźnie to: " + nearest);
         System.out.println("Dwa najdalsze punkty na płaszczyźnie to: " + farthest);
+        System.out.println("To samo, używając generycznej metody z wykorzystaniem flagi:");
+//        System.out.println("Dwa najbliższe punkty na płaszczyźnie to: " + foundNearestPoints);
+//        System.out.println("Dwa najdalsze punkty na płaszczyźnie to: " + foundFarthestPoints);
     }
 
     public void callPolymorphism() {

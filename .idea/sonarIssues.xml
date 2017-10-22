@@ -158,6 +158,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/DistanceFinderAbstract.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/FindMaxDistance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/FindMinDistance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/FinderMoreGeneric.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderTest.java">
           <value>
             <set />
@@ -168,12 +193,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/SearchMode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/queue/Lifo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/Recursion/CountTest.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/points/DistanceFinderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/queue/LifoTest.java">
           <value>
             <set />
           </value>
