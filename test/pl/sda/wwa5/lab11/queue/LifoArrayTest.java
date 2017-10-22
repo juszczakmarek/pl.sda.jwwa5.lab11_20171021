@@ -3,14 +3,11 @@ package pl.sda.wwa5.lab11.queue;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.List;
+public class LifoArrayTest {
 
-import static org.junit.Assert.*;
-
-public class LifoTest {
     @Test
-    public void testPush() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testPushArrayList() throws Exception {
+        Lifo lifo = new LifoArrayList();
         Assert.assertEquals(lifo.size(),0);
         lifo.push(1);
         Assert.assertEquals(lifo.size(),1);
@@ -18,8 +15,8 @@ public class LifoTest {
     }
 
     @Test
-    public void testPop() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testPopArrayList() throws Exception {
+        Lifo lifo = new LifoArrayList();
         lifo.push(1);
         Object o = lifo.pop();
         Assert.assertTrue(lifo.size() == 0);
@@ -28,8 +25,8 @@ public class LifoTest {
     }
 
     @Test
-    public void testOrder() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testOrderArrayList() throws Exception {
+        Lifo lifo = new LifoArrayList();
         lifo.push(1);
         lifo.push(2);
         lifo.push(3);
@@ -40,8 +37,20 @@ public class LifoTest {
     }
 
     @Test
-    public void testPopEmpty() throws Exception {
-        Lifo lifo = new Lifo();
+    public void testOrderIntegerArrayList() throws Exception {
+        Lifo<Integer> lifo = new LifoArrayList();
+        lifo.push(1);
+        lifo.push(2);
+        lifo.push(3);
+
+        Assert.assertEquals(3,lifo.pop().intValue());
+        Assert.assertEquals(2,lifo.pop().intValue());
+        Assert.assertEquals(1,lifo.pop().intValue());
+    }
+
+    @Test
+    public void testPopEmptyArrayList() throws Exception {
+        Lifo lifo = new LifoLinkedList();
 
         boolean thrown=false;
         try {
@@ -52,5 +61,4 @@ public class LifoTest {
         }
         Assert.assertTrue(thrown);
     }
-
 }

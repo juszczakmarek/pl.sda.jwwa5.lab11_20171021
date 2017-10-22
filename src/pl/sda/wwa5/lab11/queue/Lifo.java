@@ -1,30 +1,32 @@
 package pl.sda.wwa5.lab11.queue;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.List;
 
-public class Lifo {
+public abstract class Lifo<T> implements LifoInterface<T> {
 
-    //private ArrayList<Object> arrayList = new ArrayList<>();
-    private LinkedList<Object> linkedList = new LinkedList<>();
+    protected List<T> list;
 
-    public void push (Object o) {
-        linkedList.push(o);
+    @Override
+    public void push (T o) {
+        list.add(o);
     }
 
-    public Object pop() {
-        if (linkedList.isEmpty()) {
+    @Override
+    public T pop() {
+        if (list.isEmpty()) {
             throw new IllegalStateException();
         }
-        return linkedList.pop();
+        return list.remove(list.size()-1);
     }
 
+    @Override
     public int size() {
-        return linkedList.size();
+        return list.size();
     }
 
-    public boolean contains(Object o) {
-        return linkedList.contains(o);
+    @Override
+    public boolean contains(T o) {
+        return list.contains(o);
     }
 
 }

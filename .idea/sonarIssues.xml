@@ -203,12 +203,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/queue/LifoArrayList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/queue/LifoInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/queue/LifoLinkedList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/Recursion/CountTest.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/points/DistanceFinderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/queue/LifoArrayTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/queue/LifoLinkedTest.java">
           <value>
             <set />
           </value>
