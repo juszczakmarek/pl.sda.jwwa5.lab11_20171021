@@ -198,12 +198,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/queue/Lifo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/Recursion/CountTest.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/points/DistanceFinderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda/wwa5/lab11/queue/LifoTest.java">
           <value>
             <set />
           </value>
