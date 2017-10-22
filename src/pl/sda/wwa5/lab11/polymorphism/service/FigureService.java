@@ -1,6 +1,6 @@
-package pl.sda.wwa5.lab11.Polymorphism.service;
+package pl.sda.wwa5.lab11.polymorphism.service;
 
-import pl.sda.wwa5.lab11.Polymorphism.Figure;
+import pl.sda.wwa5.lab11.polymorphism.Figure;
 
 import java.util.*;
 

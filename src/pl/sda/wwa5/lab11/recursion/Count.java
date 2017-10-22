@@ -1,4 +1,4 @@
-package pl.sda.wwa5.lab11.Recursion;
+package pl.sda.wwa5.lab11.recursion;
 
 public class Count {
 

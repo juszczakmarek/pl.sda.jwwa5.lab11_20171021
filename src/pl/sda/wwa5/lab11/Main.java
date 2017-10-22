@@ -1,16 +1,15 @@
 package pl.sda.wwa5.lab11;
 
-import pl.sda.wwa5.lab11.Polymorphism.Figure;
-import pl.sda.wwa5.lab11.Polymorphism.Figures.FigureOval;
-import pl.sda.wwa5.lab11.Polymorphism.Figures.FigureRectangle;
-import pl.sda.wwa5.lab11.Polymorphism.Figures.FigureSquare;
-import pl.sda.wwa5.lab11.Polymorphism.Figures.FigureTriangle;
-import pl.sda.wwa5.lab11.Polymorphism.service.FigureService;
-import pl.sda.wwa5.lab11.Recursion.Count;
+import pl.sda.wwa5.lab11.polymorphism.Figure;
+import pl.sda.wwa5.lab11.polymorphism.Figures.FigureOval;
+import pl.sda.wwa5.lab11.polymorphism.Figures.FigureRectangle;
+import pl.sda.wwa5.lab11.polymorphism.Figures.FigureSquare;
+import pl.sda.wwa5.lab11.polymorphism.Figures.FigureTriangle;
+import pl.sda.wwa5.lab11.polymorphism.service.FigureService;
+import pl.sda.wwa5.lab11.recursion.Count;
 import pl.sda.wwa5.lab11.points.DistanceFinder;
 import pl.sda.wwa5.lab11.points.DistanceFinderException;
 import pl.sda.wwa5.lab11.points.Point;
-import pl.sda.wwa5.lab11.points.SearchMode;
 
 import java.util.Collection;
 import java.util.HashSet;

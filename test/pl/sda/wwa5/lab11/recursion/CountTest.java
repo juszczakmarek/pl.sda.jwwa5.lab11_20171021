@@ -1,9 +1,7 @@
-package pl.sda.wwa5.lab11.Recursion;
+package pl.sda.wwa5.lab11.recursion;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class CountTest {
     @Test
