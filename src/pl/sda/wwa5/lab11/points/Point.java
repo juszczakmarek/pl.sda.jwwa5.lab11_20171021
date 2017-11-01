@@ -13,8 +13,17 @@ public class Point {
         return Math.sqrt(Math.pow(otherPoint.x-this.x,2)+Math.pow(otherPoint.y-this.y,2));
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     @Override
     public String toString() {
         return "[" +  x + ", " + y + ']';
     }
+
 }

@@ -183,6 +183,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeDistanceFinder/Cluster.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeDistanceFinder/ClusterCompare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeDistanceFinder/ClusterDimension.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeDistanceFinder/ClusterPoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeDistanceFinder/ClusterSize1000.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeOptimisation/ClusterCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeOptimisation/ClusterDimension.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderService/highVolumeOptimisation/CreateClusterBasedOnSize.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/pl/sda/wwa5/lab11/points/DistanceFinderTest.java">
           <value>
             <set />
