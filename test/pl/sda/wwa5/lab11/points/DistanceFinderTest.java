@@ -15,7 +15,7 @@ import java.util.*;
 public class DistanceFinderTest {
 
     private Set<Point> surface = new HashSet<>();
-    private int howManyElements = 30000;
+    private int howManyElements = 10000;
 
     @Before
     public void createSurfaceWithManyElements() {
@@ -138,8 +138,8 @@ public class DistanceFinderTest {
         localSurface.add(p2);
         DistanceFinder df = new DistanceFinder();
 
-        Map<ClusterPoint,ArrayList<Point>> clusteredSurface = df.clusterCreator(localSurface,new ClusterSize1000());
         long startTimeStamp = new Date().getTime(); //time start
+        Map<ClusterPoint,ArrayList<Point>> clusteredSurface = df.clusterCreator(localSurface,new ClusterSize1000());
         Collection<Point> farthest = df.finderClustered(clusteredSurface, new FindMaxDistance());
         long finishTimeStamp = new Date().getTime(); //time stop
         System.out.println("Optimized find farthest execution time = " + (finishTimeStamp-startTimeStamp));
